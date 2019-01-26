@@ -59,7 +59,7 @@ export default class ContentFriend extends Component {
                             justifyContent: 'space-between',
                             height: 100,
                             padding: 15,
-                            backgroundColor: index % 2 === 0 ? '#fff' : '#fff10'
+                            backgroundColor: index % 2 === 1 ? '#fff' : '#fff10'
                         }}
                         >
                             <View style={styles.namePhotoContent}>
