@@ -12,7 +12,7 @@ import Header from './components/Header'
 import ContentFriend from './components/ContentFriend'
 import { Platform, StyleSheet, Text, View, Button } from 'react-native'
 
-export default class Home extends Component {
+export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
